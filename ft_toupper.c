@@ -3,18 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: zalachqa <zalachqa@student.42.fr>          +#+  +:+       +#+        */
+/*   By: zalachqa <zalachqa@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/07 16:30:12 by zalachqa          #+#    #+#             */
-/*   Updated: 2026/11/07 16:30:13 by zalachqa         ###   ########.fr       */
+/*   Updated: 2026/11/14 17:06:23 by zalachqa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_toupper(int c)
+int	ft_toupper(int c)
 {
-    if (c >= 'a' && c <= 'z')
-    {
-        c -= 32;
-    }
-    return (c);
+	if (c >= 'a' && c <= 'z')
+	{
+		c -= 32;
+	}
+	return (c);
 }

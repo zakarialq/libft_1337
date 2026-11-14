@@ -3,31 +3,32 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: zalachqa <zalachqa@student.42.fr>          +#+  +:+       +#+        */
+/*   By: zalachqa <zalachqa@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/24 04:12:13 by zalachqa          #+#    #+#             */
-/*   Updated: 2026/10/24 04:52:35 by zalachqa         ###   ########.fr       */
+/*   Updated: 2026/11/14 17:04:58 by zalachqa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<stdio.h>
-#include"libft.h"
+#include "libft.h"
+#include <stdio.h>
 
-size_t ft_strlcpy(char *dst, const char *src, size_t size)
+size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 {
-    size_t len = ft_strlen(src);
-    size_t i = 0;
+	size_t	len;
+	size_t	i;
 
-    if (size == 0)
-        return (len);
-
-    while (src[i] && i < (size - 1))
-    {
-        dst[i] = src[i];
-        i++;
-    }
-    dst[i] = '\0';
-    return(len);
+	len = ft_strlen(src);
+	i = 0;
+	if (size == 0)
+		return (len);
+	while (src[i] && i < (size - 1))
+	{
+		dst[i] = src[i];
+		i++;
+	}
+	dst[i] = '\0';
+	return (len);
 }
 // int main()
 // {
@@ -36,5 +37,5 @@ size_t ft_strlcpy(char *dst, const char *src, size_t size)
 //     size_t i = sizeof(d);
 //     printf("%ld\n", ft_strlcpy(d, s, i));
 //     printf("%s\n", d);
-//     return 0;
+//     return (0);
 // }

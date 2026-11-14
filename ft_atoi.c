@@ -6,7 +6,7 @@
 /*   By: zalachqa <zalachqa@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 22:00:17 by zalachqa          #+#    #+#             */
-/*   Updated: 2026/11/13 01:16:06 by zalachqa         ###   ########.fr       */
+/*   Updated: 2026/11/14 16:01:51 by zalachqa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,11 +34,3 @@ int	ft_atoi(const char *nptr)
 	}
 	return (res * sign);
 }
-
-// #include<stdio.h>
-// int main()
-// {
-//     char s[] = "2147483647";
-//     printf("%d", ft_atoi(s));
-//     return 0;
-// }

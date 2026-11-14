@@ -3,35 +3,34 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: zalachqa <zalachqa@student.42.fr>          +#+  +:+       +#+        */
+/*   By: zalachqa <zalachqa@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/23 17:14:33 by zalachqa          #+#    #+#             */
-/*   Updated: 2026/10/23 18:52:14 by zalachqa         ###   ########.fr       */
+/*   Updated: 2026/11/14 17:05:29 by zalachqa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<string.h>
 #include "libft.h"
+#include <string.h>
 
-char *ft_strrchr(const char *s, int c)
+char	*ft_strrchr(const char *s, int c)
 {
-    char x = (char)c;
+	char	x;
+	int		len;
 
-    int len;
-
-    len = (ft_strlen(s));
-    if (x == '\0')
-        return ((char *)&s[len]);
-    while (len >= 0)
-    {
-        if (x == s[len])
-        {
-            return ((char *)&s[len]);
-        }
-        len--;
-    }
-
-    return NULL; 
+	x = (char)c;
+	len = (ft_strlen(s));
+	if (x == '\0')
+		return ((char *)&s[len]);
+	while (len >= 0)
+	{
+		if (x == s[len])
+		{
+			return ((char *)&s[len]);
+		}
+		len--;
+	}
+	return (NULL);
 }
 // #include<stdio.h>
 // int main()
@@ -39,5 +38,5 @@ char *ft_strrchr(const char *s, int c)
 //     char s[] = "hello";
 //     char x = '\0';
 //     printf("%s", ft_strrchr(s, x));
-//     return 0;
+//     return (0);
 // }

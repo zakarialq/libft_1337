@@ -3,18 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: zalachqa <zalachqa@student.42.fr>          +#+  +:+       +#+        */
+/*   By: zalachqa <zalachqa@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/07 16:29:00 by zalachqa          #+#    #+#             */
-/*   Updated: 2026/11/07 16:29:01 by zalachqa         ###   ########.fr       */
+/*   Updated: 2026/11/14 15:55:32 by zalachqa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
- int isascii(int c)
- {
-    if(c >= 0 && c <= 127)
-    {
-        return (1);
-    }
-    return (0);
- }
+int	ft_isascii(int c)
+{
+	if (c >= 0 && c <= 127)
+	{
+		return (1);
+	}
+	return (0);
+}

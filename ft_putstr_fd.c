@@ -3,21 +3,23 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: zalachqa <zalachqa@student.42.fr>          +#+  +:+       +#+        */
+/*   By: zalachqa <zalachqa@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/08 00:38:33 by zalachqa          #+#    #+#             */
-/*   Updated: 2026/11/08 00:41:06 by zalachqa         ###   ########.fr       */
+/*   Updated: 2026/11/14 17:04:18 by zalachqa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<unistd.h>
+#include <unistd.h>
 
-void ft_putstr_fd(char *s, int fd)
+void	ft_putstr_fd(char *s, int fd)
 {
-    int x = 0;
-    while (s[x])
-    {
-        write(fd, &s[x], 1);
-        x++;
-    }
+	int	x;
+
+	x = 0;
+	while (s[x])
+	{
+		write(fd, &s[x], 1);
+		x++;
+	}
 }

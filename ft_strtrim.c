@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: zalachqa <zalachqa@student.42.fr>          +#+  +:+       +#+        */
+/*   By: zalachqa <zalachqa@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 14:56:19 by zalachqa          #+#    #+#             */
-/*   Updated: 2026/11/05 12:47:45 by zalachqa         ###   ########.fr       */
+/*   Updated: 2026/11/14 17:05:33 by zalachqa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,5 +57,5 @@ char	*ft_strtrim(char const *s1, char const *set)
 //     char *s1 = NULL;
 //     char set[] = "123";
 //     printf("%s", ft_strtrim(s1, set));
-//     return 0;
+//     return (0);
 // }

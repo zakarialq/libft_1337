@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: zalachqa <zalachqa@student.42.fr>          +#+  +:+       +#+        */
+/*   By: zalachqa <zalachqa@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/05 10:22:13 by zalachqa          #+#    #+#             */
-/*   Updated: 2026/11/07 17:03:20 by zalachqa         ###   ########.fr       */
+/*   Updated: 2026/11/14 17:02:58 by zalachqa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -119,5 +119,5 @@ char	**ft_split(char const *s, char c)
 //         i++;
 //     }
 //     free(p);
-//     return 0;
+//     return (0);
 // }

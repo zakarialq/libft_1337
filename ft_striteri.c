@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: zalachqa <zalachqa@student.42.fr>          +#+  +:+       +#+        */
+/*   By: zalachqa <zalachqa@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/08 00:21:12 by zalachqa          #+#    #+#             */
-/*   Updated: 2026/11/08 00:34:41 by zalachqa         ###   ########.fr       */
+/*   Updated: 2026/11/14 17:04:31 by zalachqa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,5 +30,5 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 //     char s[] = "helloz zakaria";
 //     ft_striteri(s, to_up);
 //     printf("%s",s);
-//     return 0;
+//     return (0);
 // }

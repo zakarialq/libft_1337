@@ -3,18 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: zalachqa <zalachqa@student.42.fr>          +#+  +:+       +#+        */
+/*   By: zalachqa <zalachqa@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/07 16:29:10 by zalachqa          #+#    #+#             */
-/*   Updated: 2026/11/07 16:29:11 by zalachqa         ###   ########.fr       */
+/*   Updated: 2026/11/14 15:57:29 by zalachqa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
- int isprint(int c)
- {
-    if(c >= 32 && c <= 126)
-    {
-        return (1);
-    }
-    return (0);
- }
+int	ft_isprint(int c)
+{
+	if (c >= 32 && c <= 126)
+	{
+		return (1);
+	}
+	return (0);
+}

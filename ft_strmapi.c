@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: zalachqa <zalachqa@student.42.fr>          +#+  +:+       +#+        */
+/*   By: zalachqa <zalachqa@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/07 16:26:08 by zalachqa          #+#    #+#             */
-/*   Updated: 2026/11/08 00:29:00 by zalachqa         ###   ########.fr       */
+/*   Updated: 2026/11/14 17:05:15 by zalachqa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,5 +37,5 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 // {
 //     char s[] = "hello zakaria";
 //     printf("%s", ft_strmapi(s, to_up));
-//     return 0;
+//     return (0);
 // }

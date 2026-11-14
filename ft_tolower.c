@@ -3,18 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: zalachqa <zalachqa@student.42.fr>          +#+  +:+       +#+        */
+/*   By: zalachqa <zalachqa@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/07 16:30:07 by zalachqa          #+#    #+#             */
-/*   Updated: 2026/11/07 16:30:08 by zalachqa         ###   ########.fr       */
+/*   Updated: 2026/11/14 17:06:07 by zalachqa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int tolower(int c)
+int	tolower(int c)
 {
-    if (c >= 'A' && c <= 'Z')
-    {
-        c += 32;
-    }
-    return (c);
+	if (c >= 'A' && c <= 'Z')
+	{
+		c += 32;
+	}
+	return (c);
 }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: zalachqa <zalachqa@student.42.fr>          +#+  +:+       +#+        */
+/*   By: zalachqa <zalachqa@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/07 23:02:11 by zalachqa          #+#    #+#             */
-/*   Updated: 2026/11/07 23:57:06 by zalachqa         ###   ########.fr       */
+/*   Updated: 2026/11/14 16:02:20 by zalachqa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,10 +60,3 @@ char	*ft_itoa(int n)
 	}
 	return (p);
 }
-// int main()
-// {
-//     int b = -2147483648;
-//     char *p = ft_itoa(b);
-//     printf("%s", p);
-//     free(p);
-// }
